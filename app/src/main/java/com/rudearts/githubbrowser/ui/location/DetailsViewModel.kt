@@ -26,7 +26,7 @@ class DetailsViewModel @Inject constructor(
                     loadingState.postValue(LoadingState.SHOW_RESULTS)
                     user.postValue(loadedUser)
                 }, { error ->
-                    loadingState.postValue(LoadingState.SHOW_RESULTS)
+                    loadingState.postValue(LoadingState.ERROR)
                     errorMessage.postValue(error.toString())
                 })
         )

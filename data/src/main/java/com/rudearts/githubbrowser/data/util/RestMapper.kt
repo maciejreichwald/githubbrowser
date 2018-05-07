@@ -24,9 +24,7 @@ class RestMapper @Inject constructor() {
     fun stars2starsCount(stars:List<StarredRest?>):Int {
         var count = 0
         stars.forEach { item ->
-            item.let {
-                count += item?.stars ?: 0
-            }
+            count += item?.stars ?: 0
         }
         return count
     }
