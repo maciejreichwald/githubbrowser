@@ -43,7 +43,6 @@ object Versions {
     val lifecycle = "1.1.1"
 
     val junit = "4.12"
-    val assertj_core = "3.9.1"
     val mockito_kotlin = "2.0.0-alpha02"
     val robolectric = "3.5.1"
     val mockito = "2.13.0"
@@ -83,7 +82,6 @@ object SupportLibraries {
 
 object TestLibraries {
     val junit = "junit:junit:${Versions.junit}"
-    val assertj_core = "org.assertj:assertj-core:${Versions.assertj_core}"
     val mockito_kotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:${Versions.mockito_kotlin}"
     val lifecycle_testing = "android.arch.core:core-testing:${Versions.lifecycle}"
     val robolectric = "org.robolectric:robolectric:${Versions.robolectric}"
