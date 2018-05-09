@@ -51,10 +51,6 @@ open class MainActivity : ToolbarActivity() {
         loadItemsUsingQuery()
     }
 
-    private fun loadDefaultList() {
-        viewModel.loadItems("a")
-    }
-
     internal fun setupViewModel() {
         viewModel = getViewModel<MainViewModel>(viewModelFactory).apply {
             observe(repoItems, ::updateItems)

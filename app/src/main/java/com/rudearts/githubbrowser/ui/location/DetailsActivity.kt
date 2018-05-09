@@ -1,14 +1,11 @@
 package com.rudearts.githubbrowser.ui.location
 
 import android.arch.lifecycle.ViewModelProvider
-import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.rudearts.githubbrowser.R
-import com.rudearts.githubbrowser.databinding.ActivityDetailsBinding
 import com.rudearts.githubbrowser.domain.model.User
 import com.rudearts.githubbrowser.extentions.*
 import com.rudearts.githubbrowser.model.LoadingState
